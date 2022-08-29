@@ -1,0 +1,32 @@
+body{
+	background-image: url("pexels-pixabay-326333.jpg");
+	background-size: cover;
+}
+section{
+	text-align:center ;
+	margin-top: 5%;
+	color: darkgray;
+	font-size: 50px;
+}
+h1{
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 100px;
+	color: antiquewhite;
+}
+#userName-el{
+	width: 250px;
+	height: 30px;
+	font-size: 25px;
+}
+button{
+	width: 200px;
+	height: 50px;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: ;
+	background-color: darkred;
+	border-radius: 6px;
+	cursor: pointer;
+}
