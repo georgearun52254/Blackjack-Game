@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>Blackjack Game</title>
+    </head>
+   
+    <body>
+       
+        <h1>Blackjack</h1>
+        <p id="message-el">Want to play a round?</p>
+        <p>Cards:</p>
+        <p id="cards-el">0</p>
+        <p>Sum:</p>
+        <p id="sum-el">0</p>
+        <p>Chips:</p>
+        <p id="player-el"></p>
+
+        
+        <button id="startGame-btn" onclick="startGame()">START GAME</button>
+        <button id="newCard-btn" onclick="newCard()">NEW CARD</button>
+        <button id="reset-btn" onclick="reset()">RESET</button>
+
+        <aside>
+            <p id="notice">Notice:</p>
+            <p>1. You'll will the game if you get sum=21.</p>
+            <p>2. You can pull a new card until your sum will be equal to 21.</p>
+            <p>3. The game stops when your sum exceeds 21.
+        </aside>
+
+    </body>
+    <script src="index.js"></script>
+
+</html>
